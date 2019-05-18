@@ -1,0 +1,91 @@
+/* 
+  Localizable.strings
+  GoPark
+
+  Created by Michael Wong on 19/4/19.
+  Copyright © 2019 MWstudio. All rights reserved.
+*/
+
+
+"OnboardView1Controller_lblMessage1" = "我们会帮你找到并";
+"OnboardView1Controller_lblMessage2" = "导航到墨尔本";
+"OnboardView1Controller_lblMessage3" = "的停车位";
+
+"OnboardView2Controller_lblMessage1" = "使用扫描仪让你更";
+"OnboardView2Controller_lblMessage2" = "好地识别停车";
+"OnboardView2Controller_lblMessage3" = "点标志";
+
+"OnboardView3Controller_lblMessage1" = "我们可以帮助您找回";
+"OnboardView3Controller_lblMessage2" = "你的车以防你忘了";
+"OnboardView3Controller_lblMessage3" = "你停在哪里";
+
+"OnboardGetStartController_getStart" = "开启旅程";
+
+"ParkingController_title" = "地图";
+"ParkingController_topButton_inside" = "欢迎来到CBD";
+"ParkingController_topButton_outside" = "附近停车区域";
+"ParkingController_filterButton" = "筛选";
+
+"ParkingPopupFilterController_lblParkingTime" = "停车时长";
+"ParkingPopupFilterController_lblFreeOnly" = "只显示免费";
+"ParkingPopupFilterController_lblLoadingZone" = "包含卸货区";
+"ParkingPopupFilterController_lblDisabled" = "包含残疾人区";
+"ParkingPopupFilterController_btnConfirm" = "确认";
+"ParkingPopupFilterController_btnCancel" = "取消";
+
+"ParkingPopupNavigationController_btnConfirm" = "停车确认";
+"ParkingPopupNavigationController_btnNavigate" = "行车导航";
+
+"ParkingConfirmController_lblParkingConfrim" = "确认停车";
+"ParkingConfirmController_lblSetReminder" = "设置提醒";
+"ParkingConfirmController_lblCloseScreen" = "现在你可以关闭屏幕";
+"ParkingConfirmController_lblFindMyCar" = "找回停车点";
+"ParkingConfirmController_cancelParking" = "取消停车";
+
+"ListController_title" = "附近";
+
+"ScannerController_title" = "扫描";
+"ScannerController_lblMessage" = "长按屏幕扫描停车牌";
+
+"ScannerResultController_title" = "描述";
+
+"ReferenceController_title" = "参考";
+"ReferenceController_category1_title" = "停车标志";
+"ReferenceController_category1_label1" = "此类标志包含停车点的时间与付费信息";
+"ReferenceController_category1_label2" = "";
+"ReferenceController_category2_title" = "禁止标志";
+"ReferenceController_category2_label1" = "此类标志包含停车点限制信息";
+"ReferenceController_category2_label2" = "";
+"ReferenceController_category3_title" = "特殊区域";
+"ReferenceController_category3_label1" = "此类标志包含停车点的特殊区域信息";
+"ReferenceController_category3_label2" = "";
+"ReferenceController_category4_title" = "残疾专用";
+"ReferenceController_category4_label1" = "此类标志为残疾人专用车位";
+"ReferenceController_category4_label2" = "";
+"ReferenceController_category5_title" = "限停通道";
+"ReferenceController_category5_label1" = "此类标志包含停车点的限停时间信息";
+"ReferenceController_category5_label2" = "";
+
+"ReferenceDetailsController_title" = "详情";
+
+"ReferenceImageController_title" = "图片";
+
+"SettingController_title" = "设置";
+"SettingController_language" = "选择语言";
+"SettingController_question" = "常见问题";
+"SettingController_website" = "我们主页";
+"SettingController_version" = "当前版本";
+
+"SettingLanguageController_title" = "语言";
+"SettingLanguageController_confirmEnglishAlert" = "更改语言为英语？";
+"SettingLanguageController_confirmChineseAlert" = "更改语言为中文？";
+"SettingLanguageController_denyAlert" = "这是你的当前语言";
+
+"SettingQuestionController_title" = "常见问题";
+"SettingQuestionController_textView" = "1.为什么只找到墨尔本中央商务区的停车位？\n\n目前，我们的服务仅涵盖墨尔本中央商务区。我们将在不久的将来增加停车区域。\n\n\n\n2.如何知道停车位是否被占用？\n\n当点击地图上的停车位时，弹出菜单中的绿点表示停车位可用。红点表示停车位已被占用。\n\n\n\n 3.如何设置提醒？\n\n当您确认停车位时，您可以打开提醒。系统将根据停车规则和确认的时间自动设置提醒。\n\n\n\n 4.什么是“附近”页面？\n\n此页面显示当前位置周围的30个停车位，并按距离排序。成本下的绿线表示当前有停车位，红线表示停车位已被占用。\n\n\n\n 5.如何使用扫描仪？\n\n用手指按住手机屏幕，如果识别出停车标志，将弹出结果。如果需要，您也可以打开手电筒。";
+
+"SettingWebsiteController_title" = "我们主页";
+
+"SettingAboutUsController_title" = "当前版本";
+
+"navigation_bar_back_button" = "返回";

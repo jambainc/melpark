@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B04FA49226EAB6200B14CC3 /* ParkingPopupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04FA48226EAB6200B14CC3 /* ParkingPopupNavigationController.swift */; };
+		4B04FA4D226F2F0800B14CC3 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04FA4C226F2F0800B14CC3 /* ListController.swift */; };
+		4B04FA53226F350F00B14CC3 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B04FA50226F350F00B14CC3 /* list.json */; };
+		4B04FA54226F350F00B14CC3 /* whole.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B04FA51226F350F00B14CC3 /* whole.json */; };
+		4B04FA55226F350F00B14CC3 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B04FA52226F350F00B14CC3 /* map.json */; };
+		4B0757472282D2EC00A5A27A /* ParkingPopupFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0757462282D2EC00A5A27A /* ParkingPopupFilterController.swift */; };
+		4B07574B2283AB8D00A5A27A /* ParkingConfirmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B07574A2283AB8D00A5A27A /* ParkingConfirmController.swift */; };
+		4B082DA5227593DC00EB64A7 /* ReferenceDetailsControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B082DA4227593DC00EB64A7 /* ReferenceDetailsControllerTableViewCell.swift */; };
+		4B082DA922759C4C00EB64A7 /* ReferenceImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B082DA822759C4C00EB64A7 /* ReferenceImageController.swift */; };
+		4B082DAB2275C43300EB64A7 /* ParkingSignModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4B082DAA2275C43300EB64A7 /* ParkingSignModel.mlmodel */; };
+		4B082DAD2275CE3D00EB64A7 /* API1Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B082DAC2275CE3D00EB64A7 /* API1Decodable.swift */; };
+		4B082DAF2275D08900EB64A7 /* API2Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B082DAE2275D08900EB64A7 /* API2Decodable.swift */; };
+		4B082DB12275F43D00EB64A7 /* ScannerResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B082DB02275F43D00EB64A7 /* ScannerResultController.swift */; };
+		4B1223502286D4850022FD38 /* SettingQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12234F2286D4850022FD38 /* SettingQuestionController.swift */; };
+		4B2871E02287FB96002FCD6B /* SettingWebsiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2871DF2287FB96002FCD6B /* SettingWebsiteController.swift */; };
+		4B2871E62289B602002FCD6B /* OnboardView1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2871E52289B602002FCD6B /* OnboardView1Controller.swift */; };
+		4B2871E82289B6E2002FCD6B /* OnboardView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2871E72289B6E2002FCD6B /* OnboardView2Controller.swift */; };
+		4B2871EA2289B870002FCD6B /* OnboardView3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2871E92289B870002FCD6B /* OnboardView3Controller.swift */; };
+		4B2EA6FA2270B0A00096156B /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EA6F92270B0A00096156B /* SqueezeNet.mlmodel */; };
+		4BF971A12276AACF00F16FE9 /* API3Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF971A02276AACF00F16FE9 /* API3Decodable.swift */; };
+		4BF971A32276E86500F16FE9 /* ListControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF971A22276E86500F16FE9 /* ListControllerTableViewCell.swift */; };
+		4BFE8F7D226964AE00618001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8F7C226964AE00618001 /* AppDelegate.swift */; };
+		4BFE8F82226964AE00618001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFE8F80226964AE00618001 /* Main.storyboard */; };
+		4BFE8F85226964AE00618001 /* GoPark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8F83226964AE00618001 /* GoPark.xcdatamodeld */; };
+		4BFE8F87226964B000618001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFE8F86226964B000618001 /* Assets.xcassets */; };
+		4BFE8F8A226964B000618001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFE8F88226964B000618001 /* LaunchScreen.storyboard */; };
+		4BFE8F9222696D3C00618001 /* ParkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8F9122696D3C00618001 /* ParkingController.swift */; };
+		4BFE8F9A22697A2700618001 /* OnboardGetStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8F9922697A2700618001 /* OnboardGetStartController.swift */; };
+		4BFE8F9C22697A6300618001 /* OnboardSetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8F9B22697A6300618001 /* OnboardSetupController.swift */; };
+		4BFE8FA42269B67F00618001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BFE8FA62269B67F00618001 /* Localizable.strings */; };
+		4BFE8FAC2269B9A600618001 /* OnboardLanguageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FAB2269B9A600618001 /* OnboardLanguageController.swift */; };
+		4BFE8FAE2269C58900618001 /* ScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FAD2269C58900618001 /* ScannerController.swift */; };
+		4BFE8FB02269C7F200618001 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FAF2269C7F200618001 /* MainTabController.swift */; };
+		4BFE8FD3226A0C9D00618001 /* ReferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FD2226A0C9D00618001 /* ReferenceController.swift */; };
+		4BFE8FD5226A0CBE00618001 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FD4226A0CBE00618001 /* SettingController.swift */; };
+		4BFE8FD8226AA4C500618001 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FD7226AA4C500618001 /* LocalizationSystem.swift */; };
+		4BFE8FDA226AABFB00618001 /* SettingControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FD9226AABFB00618001 /* SettingControllerTableViewCell.swift */; };
+		4BFE8FDC226ABE9B00618001 /* SettingLanguageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FDB226ABE9B00618001 /* SettingLanguageController.swift */; };
+		4BFE8FDE226AE2FC00618001 /* SettingAboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FDD226AE2FC00618001 /* SettingAboutUsController.swift */; };
+		4BFE8FE1226B0F1B00618001 /* ReferenceControllerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FE0226B0F1B00618001 /* ReferenceControllerCollectionViewCell.swift */; };
+		4BFE8FE3226B20A400618001 /* ReferenceDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE8FE2226B20A400618001 /* ReferenceDetailsController.swift */; };
+		845401B63072F406FB7A51A5 /* Pods_GoPark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E52F3319B26BF3A74C13E4 /* Pods_GoPark.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B04FA48226EAB6200B14CC3 /* ParkingPopupNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPopupNavigationController.swift; sourceTree = "<group>"; };
+		4B04FA4C226F2F0800B14CC3 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		4B04FA50226F350F00B14CC3 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		4B04FA51226F350F00B14CC3 /* whole.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = whole.json; sourceTree = "<group>"; };
+		4B04FA52226F350F00B14CC3 /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
+		4B0757462282D2EC00A5A27A /* ParkingPopupFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPopupFilterController.swift; sourceTree = "<group>"; };
+		4B07574A2283AB8D00A5A27A /* ParkingConfirmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingConfirmController.swift; sourceTree = "<group>"; };
+		4B082DA4227593DC00EB64A7 /* ReferenceDetailsControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceDetailsControllerTableViewCell.swift; sourceTree = "<group>"; };
+		4B082DA822759C4C00EB64A7 /* ReferenceImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceImageController.swift; sourceTree = "<group>"; };
+		4B082DAA2275C43300EB64A7 /* ParkingSignModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ParkingSignModel.mlmodel; sourceTree = "<group>"; };
+		4B082DAC2275CE3D00EB64A7 /* API1Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API1Decodable.swift; sourceTree = "<group>"; };
+		4B082DAE2275D08900EB64A7 /* API2Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API2Decodable.swift; sourceTree = "<group>"; };
+		4B082DB02275F43D00EB64A7 /* ScannerResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerResultController.swift; sourceTree = "<group>"; };
+		4B12234F2286D4850022FD38 /* SettingQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingQuestionController.swift; sourceTree = "<group>"; };
+		4B2871DF2287FB96002FCD6B /* SettingWebsiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingWebsiteController.swift; sourceTree = "<group>"; };
+		4B2871E52289B602002FCD6B /* OnboardView1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView1Controller.swift; sourceTree = "<group>"; };
+		4B2871E72289B6E2002FCD6B /* OnboardView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView2Controller.swift; sourceTree = "<group>"; };
+		4B2871E92289B870002FCD6B /* OnboardView3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView3Controller.swift; sourceTree = "<group>"; };
+		4B2EA6F92270B0A00096156B /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		4BF971A02276AACF00F16FE9 /* API3Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API3Decodable.swift; sourceTree = "<group>"; };
+		4BF971A22276E86500F16FE9 /* ListControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListControllerTableViewCell.swift; sourceTree = "<group>"; };
+		4BFE8F79226964AE00618001 /* GoPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFE8F7C226964AE00618001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BFE8F81226964AE00618001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BFE8F84226964AE00618001 /* GoPark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoPark.xcdatamodel; sourceTree = "<group>"; };
+		4BFE8F86226964B000618001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BFE8F89226964B000618001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BFE8F8B226964B000618001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFE8F9122696D3C00618001 /* ParkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingController.swift; sourceTree = "<group>"; };
+		4BFE8F9922697A2700618001 /* OnboardGetStartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardGetStartController.swift; sourceTree = "<group>"; };
+		4BFE8F9B22697A6300618001 /* OnboardSetupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardSetupController.swift; sourceTree = "<group>"; };
+		4BFE8F9F2269B52B00618001 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4BFE8FA02269B52B00618001 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4BFE8FA52269B67F00618001 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4BFE8FA72269B6AA00618001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4BFE8FAB2269B9A600618001 /* OnboardLanguageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardLanguageController.swift; sourceTree = "<group>"; };
+		4BFE8FAD2269C58900618001 /* ScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerController.swift; sourceTree = "<group>"; };
+		4BFE8FAF2269C7F200618001 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		4BFE8FD2226A0C9D00618001 /* ReferenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceController.swift; sourceTree = "<group>"; };
+		4BFE8FD4226A0CBE00618001 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		4BFE8FD7226AA4C500618001 /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		4BFE8FD9226AABFB00618001 /* SettingControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingControllerTableViewCell.swift; sourceTree = "<group>"; };
+		4BFE8FDB226ABE9B00618001 /* SettingLanguageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLanguageController.swift; sourceTree = "<group>"; };
+		4BFE8FDD226AE2FC00618001 /* SettingAboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingAboutUsController.swift; sourceTree = "<group>"; };
+		4BFE8FE0226B0F1B00618001 /* ReferenceControllerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceControllerCollectionViewCell.swift; sourceTree = "<group>"; };
+		4BFE8FE2226B20A400618001 /* ReferenceDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceDetailsController.swift; sourceTree = "<group>"; };
+		65FE7736B064C8E22A37C283 /* Pods-GoPark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPark.debug.xcconfig"; path = "Target Support Files/Pods-GoPark/Pods-GoPark.debug.xcconfig"; sourceTree = "<group>"; };
+		6E94F36D9A1182DF1666A78C /* Pods-GoPark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPark.release.xcconfig"; path = "Target Support Files/Pods-GoPark/Pods-GoPark.release.xcconfig"; sourceTree = "<group>"; };
+		C4E52F3319B26BF3A74C13E4 /* Pods_GoPark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoPark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BFE8F76226964AE00618001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845401B63072F406FB7A51A5 /* Pods_GoPark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01ECD7E82FF3C41C3943F728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65FE7736B064C8E22A37C283 /* Pods-GoPark.debug.xcconfig */,
+				6E94F36D9A1182DF1666A78C /* Pods-GoPark.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A8F3AE22B234666F7733E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E52F3319B26BF3A74C13E4 /* Pods_GoPark.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B04FA5822709E1800B14CC3 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				4B082DAA2275C43300EB64A7 /* ParkingSignModel.mlmodel */,
+				4B2EA6F92270B0A00096156B /* SqueezeNet.mlmodel */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		4BFE8F70226964AE00618001 = {
+			isa = PBXGroup;
+			children = (
+				4BFE8F7B226964AE00618001 /* GoPark */,
+				4BFE8F7A226964AE00618001 /* Products */,
+				01ECD7E82FF3C41C3943F728 /* Pods */,
+				2A8F3AE22B234666F7733E10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BFE8F7A226964AE00618001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BFE8F79226964AE00618001 /* GoPark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BFE8F7B226964AE00618001 /* GoPark */ = {
+			isa = PBXGroup;
+			children = (
+				4B04FA5822709E1800B14CC3 /* CoreML */,
+				4BFE8FE4226B47F200618001 /* Decodable */,
+				4BFE8FD6226A9C4500618001 /* Cell */,
+				4BFE8FA82269B86100618001 /* Localizable */,
+				4BFE8FA12269B62300618001 /* Data */,
+				4BFE8F9322696D4100618001 /* Controller */,
+				4BFE8F7C226964AE00618001 /* AppDelegate.swift */,
+				4BFE8F80226964AE00618001 /* Main.storyboard */,
+				4BFE8F86226964B000618001 /* Assets.xcassets */,
+				4BFE8F88226964B000618001 /* LaunchScreen.storyboard */,
+				4BFE8F8B226964B000618001 /* Info.plist */,
+				4BFE8F83226964AE00618001 /* GoPark.xcdatamodeld */,
+			);
+			path = GoPark;
+			sourceTree = "<group>";
+		};
+		4BFE8F9322696D4100618001 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BFE8FAB2269B9A600618001 /* OnboardLanguageController.swift */,
+				4BFE8F9B22697A6300618001 /* OnboardSetupController.swift */,
+				4B2871E52289B602002FCD6B /* OnboardView1Controller.swift */,
+				4B2871E72289B6E2002FCD6B /* OnboardView2Controller.swift */,
+				4B2871E92289B870002FCD6B /* OnboardView3Controller.swift */,
+				4BFE8F9922697A2700618001 /* OnboardGetStartController.swift */,
+				4BFE8FAF2269C7F200618001 /* MainTabController.swift */,
+				4BFE8F9122696D3C00618001 /* ParkingController.swift */,
+				4B04FA48226EAB6200B14CC3 /* ParkingPopupNavigationController.swift */,
+				4B07574A2283AB8D00A5A27A /* ParkingConfirmController.swift */,
+				4B0757462282D2EC00A5A27A /* ParkingPopupFilterController.swift */,
+				4B04FA4C226F2F0800B14CC3 /* ListController.swift */,
+				4BFE8FAD2269C58900618001 /* ScannerController.swift */,
+				4B082DB02275F43D00EB64A7 /* ScannerResultController.swift */,
+				4BFE8FD2226A0C9D00618001 /* ReferenceController.swift */,
+				4BFE8FE2226B20A400618001 /* ReferenceDetailsController.swift */,
+				4B082DA822759C4C00EB64A7 /* ReferenceImageController.swift */,
+				4BFE8FD4226A0CBE00618001 /* SettingController.swift */,
+				4BFE8FDB226ABE9B00618001 /* SettingLanguageController.swift */,
+				4B12234F2286D4850022FD38 /* SettingQuestionController.swift */,
+				4B2871DF2287FB96002FCD6B /* SettingWebsiteController.swift */,
+				4BFE8FDD226AE2FC00618001 /* SettingAboutUsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BFE8FA12269B62300618001 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4B04FA50226F350F00B14CC3 /* list.json */,
+				4B04FA52226F350F00B14CC3 /* map.json */,
+				4B04FA51226F350F00B14CC3 /* whole.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4BFE8FA82269B86100618001 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				4BFE8FD7226AA4C500618001 /* LocalizationSystem.swift */,
+				4BFE8FA62269B67F00618001 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		4BFE8FD6226A9C4500618001 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4BFE8FD9226AABFB00618001 /* SettingControllerTableViewCell.swift */,
+				4BFE8FE0226B0F1B00618001 /* ReferenceControllerCollectionViewCell.swift */,
+				4B082DA4227593DC00EB64A7 /* ReferenceDetailsControllerTableViewCell.swift */,
+				4BF971A22276E86500F16FE9 /* ListControllerTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4BFE8FE4226B47F200618001 /* Decodable */ = {
+			isa = PBXGroup;
+			children = (
+				4B082DAC2275CE3D00EB64A7 /* API1Decodable.swift */,
+				4B082DAE2275D08900EB64A7 /* API2Decodable.swift */,
+				4BF971A02276AACF00F16FE9 /* API3Decodable.swift */,
+			);
+			path = Decodable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BFE8F78226964AE00618001 /* GoPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFE8F8E226964B000618001 /* Build configuration list for PBXNativeTarget "GoPark" */;
+			buildPhases = (
+				1020AD41D6C2F104BFDF9410 /* [CP] Check Pods Manifest.lock */,
+				4BFE8F75226964AE00618001 /* Sources */,
+				4BFE8F76226964AE00618001 /* Frameworks */,
+				4BFE8F77226964AE00618001 /* Resources */,
+				3554CB31EBD26747E0CC8266 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoPark;
+			productName = GoPark;
+			productReference = 4BFE8F79226964AE00618001 /* GoPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BFE8F71226964AE00618001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MWstudio;
+				TargetAttributes = {
+					4BFE8F78226964AE00618001 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4BFE8F74226964AE00618001 /* Build configuration list for PBXProject "GoPark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 4BFE8F70226964AE00618001;
+			productRefGroup = 4BFE8F7A226964AE00618001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BFE8F78226964AE00618001 /* GoPark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BFE8F77226964AE00618001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFE8F8A226964B000618001 /* LaunchScreen.storyboard in Resources */,
+				4BFE8FA42269B67F00618001 /* Localizable.strings in Resources */,
+				4BFE8F87226964B000618001 /* Assets.xcassets in Resources */,
+				4B04FA53226F350F00B14CC3 /* list.json in Resources */,
+				4BFE8F82226964AE00618001 /* Main.storyboard in Resources */,
+				4B04FA54226F350F00B14CC3 /* whole.json in Resources */,
+				4B04FA55226F350F00B14CC3 /* map.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1020AD41D6C2F104BFDF9410 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoPark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3554CB31EBD26747E0CC8266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoPark/Pods-GoPark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ClusterKit/ClusterKit.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxDirections.swift/MapboxDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxNavigation/MapboxNavigation.framework",
+				"${PODS_ROOT}/MapboxNavigationNative/MapboxNavigationNative.framework",
+				"${PODS_ROOT}/MapboxNavigationNative/MapboxNavigationNative.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxSpeech/MapboxSpeech.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/Turf/Turf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ClusterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxCoreNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigationNative.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/MapboxNavigationNative.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxSpeech.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoPark/Pods-GoPark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BFE8F75226964AE00618001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B082DAD2275CE3D00EB64A7 /* API1Decodable.swift in Sources */,
+				4BFE8FAE2269C58900618001 /* ScannerController.swift in Sources */,
+				4BFE8F9A22697A2700618001 /* OnboardGetStartController.swift in Sources */,
+				4BFE8FDC226ABE9B00618001 /* SettingLanguageController.swift in Sources */,
+				4B2871E82289B6E2002FCD6B /* OnboardView2Controller.swift in Sources */,
+				4B082DAB2275C43300EB64A7 /* ParkingSignModel.mlmodel in Sources */,
+				4BFE8F85226964AE00618001 /* GoPark.xcdatamodeld in Sources */,
+				4BFE8F7D226964AE00618001 /* AppDelegate.swift in Sources */,
+				4B0757472282D2EC00A5A27A /* ParkingPopupFilterController.swift in Sources */,
+				4BF971A12276AACF00F16FE9 /* API3Decodable.swift in Sources */,
+				4B04FA49226EAB6200B14CC3 /* ParkingPopupNavigationController.swift in Sources */,
+				4BFE8FAC2269B9A600618001 /* OnboardLanguageController.swift in Sources */,
+				4BFE8FD3226A0C9D00618001 /* ReferenceController.swift in Sources */,
+				4B2871E62289B602002FCD6B /* OnboardView1Controller.swift in Sources */,
+				4B082DAF2275D08900EB64A7 /* API2Decodable.swift in Sources */,
+				4BFE8FB02269C7F200618001 /* MainTabController.swift in Sources */,
+				4B04FA4D226F2F0800B14CC3 /* ListController.swift in Sources */,
+				4B07574B2283AB8D00A5A27A /* ParkingConfirmController.swift in Sources */,
+				4B2871EA2289B870002FCD6B /* OnboardView3Controller.swift in Sources */,
+				4BFE8FE3226B20A400618001 /* ReferenceDetailsController.swift in Sources */,
+				4BFE8FD5226A0CBE00618001 /* SettingController.swift in Sources */,
+				4BF971A32276E86500F16FE9 /* ListControllerTableViewCell.swift in Sources */,
+				4BFE8FE1226B0F1B00618001 /* ReferenceControllerCollectionViewCell.swift in Sources */,
+				4B082DB12275F43D00EB64A7 /* ScannerResultController.swift in Sources */,
+				4BFE8FDA226AABFB00618001 /* SettingControllerTableViewCell.swift in Sources */,
+				4BFE8FDE226AE2FC00618001 /* SettingAboutUsController.swift in Sources */,
+				4BFE8F9222696D3C00618001 /* ParkingController.swift in Sources */,
+				4BFE8FD8226AA4C500618001 /* LocalizationSystem.swift in Sources */,
+				4B082DA5227593DC00EB64A7 /* ReferenceDetailsControllerTableViewCell.swift in Sources */,
+				4B1223502286D4850022FD38 /* SettingQuestionController.swift in Sources */,
+				4B082DA922759C4C00EB64A7 /* ReferenceImageController.swift in Sources */,
+				4BFE8F9C22697A6300618001 /* OnboardSetupController.swift in Sources */,
+				4B2EA6FA2270B0A00096156B /* SqueezeNet.mlmodel in Sources */,
+				4B2871E02287FB96002FCD6B /* SettingWebsiteController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BFE8F80226964AE00618001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BFE8F81226964AE00618001 /* Base */,
+				4BFE8F9F2269B52B00618001 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BFE8F88226964B000618001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BFE8F89226964B000618001 /* Base */,
+				4BFE8FA02269B52B00618001 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4BFE8FA62269B67F00618001 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BFE8FA52269B67F00618001 /* zh-Hans */,
+				4BFE8FA72269B6AA00618001 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BFE8F8C226964B000618001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BFE8F8D226964B000618001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BFE8F8F226964B000618001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FE7736B064C8E22A37C283 /* Pods-GoPark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 992JTAKAV2;
+				INFOPLIST_FILE = GoPark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWstudio.GoPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BFE8F90226964B000618001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E94F36D9A1182DF1666A78C /* Pods-GoPark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 992JTAKAV2;
+				INFOPLIST_FILE = GoPark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MWstudio.GoPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BFE8F74226964AE00618001 /* Build configuration list for PBXProject "GoPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFE8F8C226964B000618001 /* Debug */,
+				4BFE8F8D226964B000618001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BFE8F8E226964B000618001 /* Build configuration list for PBXNativeTarget "GoPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFE8F8F226964B000618001 /* Debug */,
+				4BFE8F90226964B000618001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BFE8F83226964AE00618001 /* GoPark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BFE8F84226964AE00618001 /* GoPark.xcdatamodel */,
+			);
+			currentVersion = 4BFE8F84226964AE00618001 /* GoPark.xcdatamodel */;
+			path = GoPark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BFE8F71226964AE00618001 /* Project object */;
+}

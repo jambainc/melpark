@@ -1,0 +1,42 @@
+
+/* Class = "UINavigationItem"; title = "Setting"; ObjectID = "0Ph-fu-je3"; */
+"0Ph-fu-je3.title" = "Setting";
+
+/* Class = "UILabel"; text = "Onborading page 3"; ObjectID = "301-jT-3hy"; */
+"301-jT-3hy.text" = "Onborading page 3";
+
+/* Class = "UINavigationItem"; title = "Scanner"; ObjectID = "4Gz-IX-NPa"; */
+"4Gz-IX-NPa.title" = "Scanner";
+
+/* Class = "UILabel"; text = "Onborading page 2"; ObjectID = "E5c-ol-9Cz"; */
+"E5c-ol-9Cz.text" = "Onborading page 2";
+
+/* Class = "UITabBarItem"; title = "Setting"; ObjectID = "FFg-tk-yhL"; */
+"FFg-tk-yhL.title" = "Setting";
+
+/* Class = "UILabel"; text = "Onborading page 4"; ObjectID = "IKh-2d-Zh0"; */
+"IKh-2d-Zh0.text" = "Onborading page 4";
+
+/* Class = "UITabBarItem"; title = "Parking"; ObjectID = "UzF-Q4-x4e"; */
+"UzF-Q4-x4e.title" = "Parking";
+
+/* Class = "UITabBarItem"; title = "Scanner"; ObjectID = "dd7-Vd-fLP"; */
+"dd7-Vd-fLP.title" = "Scanner";
+
+/* Class = "UITabBarItem"; title = "Reference"; ObjectID = "eca-Jd-OlU"; */
+"eca-Jd-OlU.title" = "Reference";
+
+/* Class = "UILabel"; text = "Onborading page 5"; ObjectID = "gVS-F1-VbG"; */
+"gVS-F1-VbG.text" = "Onborading page 5";
+
+/* Class = "UILabel"; text = "Onborading page 1"; ObjectID = "pnR-x5-iET"; */
+"pnR-x5-iET.text" = "Onborading page 1";
+
+/* Class = "UIButton"; normalTitle = "Get start"; ObjectID = "q2m-aI-u6d"; */
+"q2m-aI-u6d.normalTitle" = "Get start";
+
+/* Class = "UINavigationItem"; title = "Parking"; ObjectID = "qsk-ND-aJp"; */
+"qsk-ND-aJp.title" = "Parking";
+
+/* Class = "UINavigationItem"; title = "Reference"; ObjectID = "wAT-jQ-qWO"; */
+"wAT-jQ-qWO.title" = "Reference";

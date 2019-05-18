@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  GoPark
+
+  Created by Michael Wong on 19/4/19.
+  Copyright © 2019 MWstudio. All rights reserved.
+*/
+
+
+"OnboardView1Controller_lblMessage1" = "We've made it easier to find and";
+"OnboardView1Controller_lblMessage2" = "navigate to a parking spot";
+"OnboardView1Controller_lblMessage3" = "within Melbourne";
+
+"OnboardView2Controller_lblMessage1" = "Use the scanner to get a better";
+"OnboardView2Controller_lblMessage2" = "understanding of the";
+"OnboardView2Controller_lblMessage3" = "parking signs";
+
+"OnboardView3Controller_lblMessage1" = "We can help you get back to";
+"OnboardView3Controller_lblMessage2" = "your car If you forgot";
+"OnboardView3Controller_lblMessage3" = "where you parked";
+
+"OnboardGetStartController_getStart" = "Start Journey";
+
+"ParkingController_title" = "Map";
+"ParkingController_topButton_inside" = "Welcome to CBD";
+"ParkingController_topButton_outside" = "Nearby Parking Area";
+"ParkingController_filterButton" = "Filter";
+
+"ParkingPopupFilterController_lblParkingTime" = "Parking Time";
+"ParkingPopupFilterController_lblFreeOnly" = "Free only";
+"ParkingPopupFilterController_lblLoadingZone" = "Include loading Zone";
+"ParkingPopupFilterController_lblDisabled" = "Include disabled";
+"ParkingPopupFilterController_btnConfirm" = "Confirm";
+"ParkingPopupFilterController_btnCancel" = "Cancel";
+
+"ParkingPopupNavigationController_btnConfirm" = "Confirm Parking";
+"ParkingPopupNavigationController_btnNavigate" = "Navigate";
+
+"ParkingConfirmController_lblParkingConfrim" = "Parking Confirmed";
+"ParkingConfirmController_lblSetReminder" = "Set reminder";
+"ParkingConfirmController_lblCloseScreen" = "You can close the screen now";
+"ParkingConfirmController_lblFindMyCar" = "Find My Car";
+"ParkingConfirmController_cancelParking" = "Cancel Parking";
+
+"ListController_title" = "Nearby";
+
+"ScannerController_title" = "Scanner";
+"ScannerController_lblMessage" = "Long press screen to scan";
+
+"ScannerResultController_title" = "Description";
+
+"ReferenceController_title" = "Reference";
+"ReferenceController_category1_title" = "Parking";
+"ReferenceController_category1_label1" = "This category involves parking time,";
+"ReferenceController_category1_label2" = "cost and other information";
+"ReferenceController_category2_title" = "Prohibition";
+"ReferenceController_category2_label1" = "This category involves parking spots";
+"ReferenceController_category2_label2" = "prohibition information";
+"ReferenceController_category3_title" = "Zones";
+"ReferenceController_category3_label1" = "This category involves special parking";
+"ReferenceController_category3_label2" = "zones information";
+"ReferenceController_category4_title" = "Disable";
+"ReferenceController_category4_label1" = "This category involves disability";
+"ReferenceController_category4_label2" = "zones information";
+"ReferenceController_category5_title" = "Clearway";
+"ReferenceController_category5_label1" = "This category involves clearway";
+"ReferenceController_category5_label2" = "time information";
+
+"ReferenceDetailsController_title" = "Details";
+
+"ReferenceImageController_title" = "Image";
+
+"SettingController_title" = "Setting";
+"SettingController_language" = "Language";
+"SettingController_question" = "FAQ";
+"SettingController_website" = "Our Website";
+"SettingController_version" = "Version";
+
+"SettingLanguageController_title" = "Language";
+"SettingLanguageController_confirmEnglishAlert" = "Set language to English？";
+"SettingLanguageController_confirmChineseAlert" = "Set language to Chinese？";
+"SettingLanguageController_denyAlert" = "This is your current language";
+
+"SettingQuestionController_title" = "FAQ";
+"SettingQuestionController_textView" = "1. Why are only the parking spots in Melbourne CBD found?\n\nCurrently, our service only covers Melbourne CBD. We will be adding more parking areas in the near future.\n\n\n\n2. How do I know if the parking spot is occupied?\n\nWhen click the parking spot on the map, a green dot in the pop-up menu indicates that the parking spot is available. A red dot indicates that the parking spot is occupied.\n\n\n\n3. How do you set a reminder?\n\nWhen you confirm a parking spot, you can turn on the reminder. The system will set a reminder automatically based on the parking rules and the confirmed time.\n\n\n\n4. What is the Nearby page?\n\nThis page displays 30 parking spots around your current location and it is sorted by distance. The green line under the cost indicates a parking spot is currently available, and a red line indicates that the parking spot is occupied.\n\n\n\n5. How do you use the scanner?\n\nKeep your finger pressed on the screen and a result will popup if the parking sign is recognised. You can also open the flashlight if needed.";
+
+"SettingWebsiteController_title" = "Our Website";
+
+"SettingAboutUsController_title" = "Version";
+
+
+"navigation_bar_back_button" = "Back";
+
